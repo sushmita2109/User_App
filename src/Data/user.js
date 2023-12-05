@@ -1,4 +1,4 @@
-export const user = [
+const user = [
   {
     id: 1,
     first_name: "Anet",
@@ -10270,3 +10270,5 @@ export const user = [
     available: true,
   },
 ];
+
+module.exports = user;

@@ -6,3 +6,18 @@
   padding: 8px;
   gap: 5px;
 }
+
+.Sidebar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 8px;
+  gap: 5px;
+  height: 10vh;
+  flex-grow: 1;
+}
+
+.MainPage {
+  display: flex;
+  flex-direction: column;
+}
