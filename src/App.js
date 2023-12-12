@@ -6,19 +6,6 @@ import { UsersCard } from "./Components/UsersCard";
 import { NavBar } from "./Components/NavBar";
 
 function App() {
-  const [users_data, setUsers_data] = useState([]);
-  const getData = async () => {
-    try {
-      const response = await fetch("http://localhost:3001/api/users");
-
-      const user = await response.json();
-
-      setUsers_data(user);
-    } catch (error) {
-      console.log("erro", error);
-    }
-  };
-
   const postData = async () => {
     const data = {
       first_name: "Johnette",

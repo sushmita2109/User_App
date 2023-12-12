@@ -35,6 +35,8 @@ export const UsersCard = ({ user }) => {
       </CardContent>
       <CardActions>
         {user.available && <Button size="small">Add to Team</Button>}
+        <Button>Update User </Button>
+        <Button>Delete User</Button>
       </CardActions>
     </Card>
   );
